@@ -1,3 +1,5 @@
+import style from './layout'
+
 interface CategoryProps {
     params: {
         category: string

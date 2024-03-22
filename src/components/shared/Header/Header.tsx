@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from 'next/link'
 
 export const Header = () => {
   console.log('Hola mundo header')
@@ -13,5 +13,5 @@ export const Header = () => {
         </Link>
       </ul>
     </nav>
-  </header>
-  )}
+  </header>)
+}

@@ -2,7 +2,7 @@ import style from './layout'
 
 interface CategoryProps {
     params: {
-        categories: string[]
+        categories: string[],
         searchParams?: string
     }
 }

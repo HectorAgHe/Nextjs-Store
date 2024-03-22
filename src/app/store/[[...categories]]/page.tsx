@@ -2,13 +2,14 @@ import style from './layout'
 
 interface CategoryProps {
     params: {
-        category: string
+        categories: string[]
+        searchParams?: string
     }
 }
 
 export default function Category(props: CategoryProps){
-    const {category} = props.params
+    const {categories} = props.params
     return(
-        <h1>Categoria dinamica: {category} </h1>
+        <h1>Categoria dinamica: {categories} </h1>
     )
 }

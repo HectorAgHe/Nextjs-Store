@@ -1,3 +1,5 @@
+
+
 interface CategoryProps {
     params: {
       categories: string[],
